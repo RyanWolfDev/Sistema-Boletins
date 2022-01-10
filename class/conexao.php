@@ -4,10 +4,10 @@
 
     $sistema = new Sistema;
 
-    $host = "localhost";//host do banco
-    $dbname = "escola";//nome do banco
-    $user = "root";//usuário do banco
-    $password = "";//senha do banco
+    $host = "br2l9hhkcp7hcwcstcoq-mysql.services.clever-cloud.com";//host do banco
+    $dbname = "br2l9hhkcp7hcwcstcoq";//nome do banco
+    $user = "ujn3v0n6czpn9llb";//usuário do banco
+    $password = "CHm4dGUcdqOH20Vw3XGC";//senha do banco
 
     $sistema->conectar($host, $dbname, $user, $password);//conectando com o banco
 
